@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* @layer utilities {
+  .dynamic-bg {
+    @apply absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ease-in-out;
+  }
+} */
+
+/* styles.css */
+.bg-image-1 {
+  background-image: url('https://media.istockphoto.com/id/1199145131/photo/technical-support-concept-maintenance-sign-wrench-and-srewdriver-tools-tech-issues-fix-service.webp?a=1&b=1&s=612x612&w=0&k=20&c=bLtFkcU4wmOpfpeURXJsBwUDlUGtBr3tDAJIIUBMiOI=');
+}
+
+.bg-image-2 {
+  background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmczYmxzZHRzamozaG40Nzh3Z29vYnkyd3ZrbmUza3J4MWNoandiNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sOzHwf1DF8h96A5tXU/giphy.webp');
+}
+
+.bg-image-3 {
+  background-image: url('https://media.istockphoto.com/id/2153478836/photo/digital-technology-internet-network-connection-big-data-digital-marketing-iot-internet-of.webp?a=1&b=1&s=612x612&w=0&k=20&c=j843o3yTKU6XtSWda4Uh8nJVtdXJGSZE4AnlT-WEA-8=');
+}
+
+.bg-image-4 {
+  background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDc3a3U5Mmk1ZjJ1OHV0dDI0dnUxcmhpcG1zYWVsZ3dnOTBvZ2xlMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l4JyQqyt9S1WTiE6c/giphy.webp');
+}
+
+/* Add more images as needed */
+
+
