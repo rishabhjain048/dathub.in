@@ -1,5 +1,5 @@
 'use client';  // Add this line to mark the file as a client-side component
-
+import Link from 'next/link';
 import React, { useEffect, useState } from "react";
 
 export default function Hero() {
@@ -43,13 +43,22 @@ export default function Hero() {
           Crafting innovative digital solutions for businesses to thrive in the modern world.
         </p>
         <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6">
-          <button className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white font-semibold py-3 px-6 md:py-4 md:px-8 rounded-lg shadow-lg hover:from-blue-600 hover:via-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-105">
-            Get Started
-          </button>
-          <button className="bg-transparent border-2 border-white text-white font-semibold py-3 px-6 md:py-4 md:px-8 rounded-lg shadow-lg hover:bg-white hover:text-blue-600 transition-all duration-300 transform hover:scale-105">
-            Learn More
-          </button>
-        </div>
+      {/* About Page Button */}
+      <Link
+        href="/about"
+        className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white font-semibold py-3 px-6 md:py-4 md:px-8 rounded-lg shadow-lg hover:from-blue-600 hover:via-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-105"
+      >
+        Get Started
+      </Link>
+      
+      {/* Projects Page Button */}
+      <Link
+        href="/projects"
+        className="bg-transparent border-2 border-white text-white font-semibold py-3 px-6 md:py-4 md:px-8 rounded-lg shadow-lg hover:bg-white hover:text-blue-600 transition-all duration-300 transform hover:scale-105"
+      >
+        Learn More
+      </Link>
+    </div>
       </div>
     </section>
   );

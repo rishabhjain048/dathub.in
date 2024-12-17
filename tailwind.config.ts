@@ -14,6 +14,10 @@ module.exports = {
           "33%": { opacity: 1 }, // Fully visible at 1/3 of the duration
         },
       },
+      
+      // backgroundImage: {
+      //   'custom-image': "url('/path/to/image.jpg')",
+      // },
     },
   },
   plugins: [],

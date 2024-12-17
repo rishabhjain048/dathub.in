@@ -8,8 +8,8 @@ const Header = () => {
       {/* Top Section */}
       <div className="flex justify-between items-center px-6 py-3bg-gray-900 text-sm">
         <div className="flex space-x-6">
-          <Link href="mailto:info@company.com" className="hover:text-yellow-300 transition duration-300 transform hover:scale-105">
-            Debtrch@company.com
+          <Link href="mailto:Dathub@company.com" className="hover:text-yellow-300 transition duration-300 transform hover:scale-105">
+            Dathub@company.com
           </Link>
           <span className="text-gray-300">|</span>
           <Link href="tel:+918871266742" className="hover:text-yellow-300 transition duration-300 transform hover:scale-105">
