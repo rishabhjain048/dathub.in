@@ -86,7 +86,7 @@ const About = () => {
       >
         <h2 className="text-4xl font-bold text-center mb-4 text-gray-800">About Us</h2>
         <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-          Building tomorrow's technology solutions with innovation and expertise.
+          Building tomorrows technology solutions with innovation and expertise.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

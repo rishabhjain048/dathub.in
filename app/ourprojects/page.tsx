@@ -3,9 +3,9 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { ExternalLink, Search } from 'lucide-react';
+import { ExternalLink} from 'lucide-react';
 
-const page = () => {
+const Page = () => {
   
   const [selectedTag, setSelectedTag] = useState('');
   
@@ -189,4 +189,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
