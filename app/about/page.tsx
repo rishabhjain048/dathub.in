@@ -32,7 +32,7 @@ const AboutPage = () => {
               About Us
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're a team of passionate developers and designers creating innovative 
+              We are a team of passionate developers and designers creating innovative 
               digital solutions that drive business growth and user engagement.
             </p>
           </div>
