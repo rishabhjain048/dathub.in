@@ -114,7 +114,47 @@ const Header = () => {
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
-            {['About', 'OurProjects', 'Services', 'Contact'].map((item) => (
+          <Link 
+              
+              href={"/ourservices"}
+              className={`${
+                scrolled ? 'text-gray-800' : 'text-white'
+              } hover:text-blue-500 transition-colors`}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Services
+            </Link>
+            <Link 
+              
+              href={"/ourprojects"}
+              className={`${
+                scrolled ? 'text-gray-800' : 'text-white'
+              } hover:text-blue-500 transition-colors`}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Projects
+            </Link>
+            <Link 
+              
+              href={"/about"}
+              className={`${
+                scrolled ? 'text-gray-800' : 'text-white'
+              } hover:text-blue-500 transition-colors`}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              About
+            </Link>
+            <Link 
+              
+              href={"/contact"}
+              className={`${
+                scrolled ? 'text-gray-800' : 'text-white'
+              } hover:text-blue-500 transition-colors`}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Contact
+            </Link>
+            {/* {['About', 'OurProjects', 'Services', 'Contact'].map((item) => (
               <Link 
                 key={item} 
                 href={`/${item.toLowerCase()}`}
@@ -124,7 +164,7 @@ const Header = () => {
               >
                 {item}
               </Link>
-            ))}
+            ))} */}
           </div>
 
           <button 
@@ -143,16 +183,39 @@ const Header = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <div className="bg-white shadow-lg rounded-b-lg mx-4 p-4">
-          {['About', 'OurProjects', 'Services', 'Contact'].map((item) => (
-            <Link 
-              key={item}
-              href={`/${item.toLowerCase()}`}
+        <Link 
+              
+              href={"/ourservices"}
               className="block py-2 text-gray-800 hover:text-blue-500"
               onClick={() => setIsMenuOpen(false)}
             >
-              {item}
+              Services
             </Link>
-          ))}
+            <Link 
+              
+              href={"/ourprojects"}
+              className="block py-2 text-gray-800 hover:text-blue-500"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Projects
+            </Link>
+            <Link 
+              
+              href={"/about"}
+              className="block py-2 text-gray-800 hover:text-blue-500"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              About
+            </Link>
+            <Link 
+              
+              href={"/contact"}
+              className="block py-2 text-gray-800 hover:text-blue-500"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Contact
+            </Link>
+          
         </div>
       </motion.div>
     </header>
