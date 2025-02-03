@@ -30,7 +30,7 @@
 //         <div className="border border-gray-200 rounded-lg shadow-xl hover:shadow-2xl p-6 text-center transition-all transform hover:scale-105">
 //           <div className="mb-4">
 //             <span className="text-5xl text-yellow-600 mb-2 inline-block p-3 rounded-full bg-yellow-100">
-//               📈
+//               
 //             </span>
 //             <h3 className="text-2xl font-semibold text-gray-800 mt-4">8+ Investors</h3>
 //           </div>

@@ -15,9 +15,22 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+
 export const metadata: Metadata = {
-  title: "Dathub",
-  description: "Build the Future of Technology",
+  title: "Dathub – Expert Web, App, SaaS & Data Solutions",
+  description: "At Dathub.in, we craft high-performance websites, mobile apps, and SaaS products while delivering expert data handling solutions. From startups to enterprises, we turn your ideas into scalable digital solutions with cutting-edge technology and seamless design. Let’s build your next big project! 🚀",
+  openGraph: {
+    title: 'Dathub.in – Expert Web, App, SaaS & Data Solutions',
+    description: "At Dathub.in, we craft high-performance websites, mobile apps, and SaaS products while delivering expert data handling solutions. From startups to enterprises, we turn your ideas into scalable digital solutions with cutting-edge technology and seamless design. Let’s build your next big project! 🚀",
+    images: [
+      {
+        url: 'https://res.cloudinary.com/dtezihsb8/image/upload/v1738547045/DAV_HUB_lq9vco.png',
+        width: 800,
+        height: 600,
+        alt: 'Og Image Alt',
+      },
+    ],
+  }
 };
 
 export default function RootLayout({
