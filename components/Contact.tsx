@@ -3,6 +3,7 @@ import React from "react";
 export default function Contact() {
   return (
     <section
+    id="contact"
       className="py-20 px-4 bg-gray-100 bg-center relative bg-no-repeat bg-cover bg-[url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDRqa3QxM2pjZXUzMW9pcWR5dGpsdnRyM3V5dGJuNmpjdGZpYzFtNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IcZhFmufozDCij3p22/giphy.webp')]"
       
     >

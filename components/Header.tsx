@@ -146,7 +146,7 @@ const Header = () => {
             </Link>
             <Link 
               
-              href={"/contact"}
+              href={"/#contact"}
               className={`${
                 scrolled ? 'text-gray-800' : 'text-white'
               } hover:text-blue-500 transition-colors`}
