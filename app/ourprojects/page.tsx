@@ -12,6 +12,15 @@ const Page = () => {
   const projects = [
     {
       id: "p1",
+      name: "Instant verification",
+      purpose: "Real-time background verification services in India with support for ID verification in 195+ countries.",
+      tech: "API Integration, and proper authantications",
+      image_urls: "https://res.cloudinary.com/dtezihsb8/image/upload/v1738870768/Untitled_design_12_c8us3j.png",
+      link: "https://www.instantverify.in/",
+      tags: ["AI"]
+    },
+    {
+      id: "p2",
       name: "Sponsify",
       purpose: "A website which can directly provide sponsor and the creator.",
       tech: "B@B for content creators and developers",
@@ -20,25 +29,25 @@ const Page = () => {
       tags: ["B2B", "Sponsorship"]
     },
     {
-      id: "p2",
-      name: "Fancy Jewellers",
-      purpose: "Create a website for user interaction and advertisement.",
-      tech: "Designer jewellery and others",
-      image_urls: "https://res.cloudinary.com/dtezihsb8/image/upload/v1734339380/fancy_jwellers_qrgjv6.png",
-      link: "https://website-xi-beryl-72.vercel.app/",
-      tags: ["E-commerce", "Design"]
-    },
-    {
       id: "p3",
-      name: "Smart Skills Checker",
-      purpose: "Implement AI driven spell check for smart works.",
-      tech: "Artificial intelligence",
-      image_urls: "https://res.cloudinary.com/dtezihsb8/image/upload/v1734339452/candidate_skill_up0ywc.png",
-      link: "https://www.candidateskillsreview.com/",
-      tags: ["AI", "Education"]
+      name: "Fancy Jewellers App",
+      purpose: "Create the Android app for jewelers who want to display live gold rates to show his customer.",
+      tech: "Designer jewellery and others",
+      image_urls: "https://res.cloudinary.com/dtezihsb8/image/upload/v1738870769/Untitled_design_14_oyb1t2.png",
+      link: "https://play.google.com/store/apps/details?id=com.fancyjewellers.fancyjewellers",
+      tags: ["App", "Design"]
     },
     {
       id: "p4",
+      name: "Landing Page",
+      purpose: "Create the landing page for an early Startup",
+      tech: "Next.js",
+      image_urls: "https://res.cloudinary.com/dtezihsb8/image/upload/v1734339452/candidate_skill_up0ywc.png",
+      link: "https://www.candidateskillsreview.com/",
+      tags: ["Startup", "Education"]
+    },
+    {
+      id: "p5",
       name: "Pure Vichar",
       purpose: "A website use to display the quotes.",
       tech: "web dev, web scrapping, seo",
@@ -47,22 +56,31 @@ const Page = () => {
       tags: ["Content", "Web Scraping"]
     },
     {
-      id: "p5",
+      id: "p6",
       name: "Academia",
-      purpose: "E-courses Website",
+      purpose: "Course Selling website",
       tech: "Web-dev and Ai",
-      image_urls: "https://res.cloudinary.com/dtezihsb8/image/upload/v1734276299/purevichar.in_ofyw1b.png",
+      image_urls: "https://res.cloudinary.com/dtezihsb8/image/upload/v1738870824/Untitled_design_10_ycugxt.png",
       link: "https://course-connect-nu.vercel.app/team",
       tags: ["Education", "AI"]
     },
     {
-      id: "p6",
-      name: "Waterfront Development",
-      purpose: "Transform the city's waterfront area into a cultural hub.",
-      tech: "Architectural design, sustainable infrastructure",
+      id: "p7",
+      name: "Instant verification",
+      purpose: "Real-time background verification services in India with support for ID verification in 195+ countries.",
+      tech: "API Integration, and proper authantications",
       image_urls: "https://res.cloudinary.com/dtezihsb8/image/upload/v1734276299/purevichar.in_ofyw1b.png",
-      link: "https://waterfrontdevelopment.example.com",
+      link: "https://www.instantverify.in/",
       tags: ["AI"]
+    },
+    {
+      id: "p8",
+      name: "New Rai Footwear App",
+      purpose: "An app for display the product updates for a wholesale footwear shop",
+      tech: "App devlopnet",
+      image_urls: "https://res.cloudinary.com/dtezihsb8/image/upload/v1738870768/Untitled_design_13_xgvjqx.png",
+      link: "https://play.google.com/apps/internaltest/4700973475734720362",
+      tags: ["App devlopment"]
     }
   ];
 

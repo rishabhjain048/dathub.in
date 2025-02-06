@@ -6,6 +6,7 @@ import Project from '@/components/Project';
 import Contact from '@/components/Contact';
 
 import '../app/globals.css';
+import CustomerReviews from '@/components/CustomerReviews';
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <About />
         <Project />
         {/* <Investor /> */}
+        <CustomerReviews/>
         <Contact />
       </main>
       

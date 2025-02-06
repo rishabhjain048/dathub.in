@@ -117,7 +117,7 @@ export default function Hero() {
         className="relative z-10 max-w-5xl mx-auto text-center px-6"
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.5 }}
+        transition={{ delay: 0.01 }}
       >
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
           Build the Future of
