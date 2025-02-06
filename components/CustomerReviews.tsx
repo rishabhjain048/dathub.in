@@ -232,11 +232,11 @@ const CustomerReviews = () => {
     setCurrentIndex((prev) => (prev + 1) % reviews.length);
   };
 
-  const handleTouchStart = (e:any) => {
+  const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
     setTouchStart(e.touches[0].clientX);
   };
 
-  const handleTouchMove = (e:any) => {
+  const handleTouchMove = (e: React.TouchEvent<HTMLDivElement>) => {
     if (!touchStart) return;
 
     const currentTouch = e.touches[0].clientX;
