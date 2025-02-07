@@ -68,7 +68,7 @@ const About = () => {
     },
     {
       icon: "🚀",
-      title: "8+ Investors",
+      title: "our mission",
       description: "Our mission is to build seamless, scalable digital solutions that empower businesses worldwide.",
       bgColor: "bg-yellow-100",
       iconColor: "text-yellow-600"
