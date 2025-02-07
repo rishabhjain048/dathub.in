@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
             
             <p className="text-gray-400">
-              Founded in 2023, Tech Info is your gateway to cutting-edge innovation and technology solutions.
+              Founded in 2024, Dathub.in is your gateway to cutting-edge innovation and technology solutions.
               We are committed to empowering businesses with tailored services and transformative digital strategies.
             </p>
           </div>
@@ -33,10 +33,10 @@ export default function Footer() {
             <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li><Link href="/" className="text-gray-400 hover:text-yellow-400">Home</Link></li>
-              <li><Link href="/category" className="text-gray-400 hover:text-yellow-400">Services</Link></li>
+              <li><Link href="/ourservices" className="text-gray-400 hover:text-yellow-400">Services</Link></li>
               <li><Link href="/about" className="text-gray-400 hover:text-yellow-400">About Us</Link></li>
-              <li><Link href="/contact" className="text-gray-400 hover:text-yellow-400">Contact</Link></li>
-              <li><Link href="/faq" className="text-gray-400 hover:text-yellow-400">FAQ</Link></li>
+              <li><Link href="/#contact" className="text-gray-400 hover:text-yellow-400">Contact</Link></li>
+              
             </ul>
           </div>
 
@@ -47,10 +47,10 @@ export default function Footer() {
               <p>Tech Info</p>
               <p>Shubhash nagar,<br />Sagar, Madhya Pradesh, India</p>
               <p className="mt-2">Phone: 
-                <a href="tel:+918871266742" className="hover:text-yellow-400"> +91 8871266742</a>
+                <a href="tel:+919302893948" className="hover:text-yellow-400"> +91 9302893948</a>
               </p>
-              <p><a href="https://wa.me/8871266742" className="hover:text-yellow-400">Chat with us on WhatsApp</a></p>
-              <p>Email: <a href="mailto:Dathubin@gmail.com" className="hover:text-yellow-400">Dathubin@gmail.com</a></p>
+              <p><a href="https://wa.me/9302893948" className="hover:text-yellow-400">Chat with us on WhatsApp</a></p>
+              <p>Email: <a href="mailto:hr@dathub.in" className="hover:text-yellow-400">hr@dathub.in</a></p>
             </address>
           </div>
 
@@ -76,13 +76,13 @@ export default function Footer() {
 
         {/* Bottom Section */}
         <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400">&copy; 2024 Tech Info. All rights reserved.</p>
+          <p className="text-gray-400">&copy; 2024 Dathub All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <Link href="#" className="text-gray-400 hover:text-yellow-400"><Facebook size={20} /></Link>
+            {/* <Link href="#" className="text-gray-400 hover:text-yellow-400"><Facebook size={20} /></Link> */}
             <Link href="#" className="text-gray-400 hover:text-yellow-400"><Twitter size={20} /></Link>
-            <Link href="#" className="text-gray-400 hover:text-yellow-400"><Instagram size={20} /></Link>
-            <Link href="#" className="text-gray-400 hover:text-yellow-400"><Linkedin size={20} /></Link>
-            <Link href="#" className="text-gray-400 hover:text-yellow-400"><Youtube size={20} /></Link>
+            <Link href="https://www.instagram.com/dathub.in/" className="text-gray-400 hover:text-yellow-400"><Instagram size={20} /></Link>
+            <Link href="https://www.linkedin.com/company/dathub/?viewAsMember=true" className="text-gray-400 hover:text-yellow-400"><Linkedin size={20} /></Link>
+            {/* <Link href="#" className="text-gray-400 hover:text-yellow-400"><Youtube size={20} /></Link> */}
           </div>
         </div>
       </div>
