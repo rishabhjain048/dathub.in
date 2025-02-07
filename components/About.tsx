@@ -54,7 +54,7 @@ const About = () => {
   const stats = [
     {
       icon: "🏢",
-      title: "Founded in 2023",
+      title: "Founded in 2024",
       description: "We started with a vision to transform local cities.",
       bgColor: "bg-blue-100",
       iconColor: "text-blue-600"
@@ -67,9 +67,9 @@ const About = () => {
       iconColor: "text-green-600"
     },
     {
-      icon: "📈",
+      icon: "🚀",
       title: "8+ Investors",
-      description: "Backed by more than 8 trusted investors.",
+      description: "Our mission is to build seamless, scalable digital solutions that empower businesses worldwide.",
       bgColor: "bg-yellow-100",
       iconColor: "text-yellow-600"
     }
@@ -84,7 +84,7 @@ const About = () => {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-4xl font-bold text-center mb-4 text-gray-800">About Us</h2>
+        <h2 className="text-4xl font-bold text-center mb-4 text-gray-800">Our Journey</h2>
         <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
           Building tomorrows technology solutions with innovation and expertise.
         </p>
